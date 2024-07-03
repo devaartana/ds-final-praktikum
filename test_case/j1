@@ -1,0 +1,16 @@
+15
+CREATE TOPIC user_activity
+CREATE TOPIC shopping
+WRITE user_activity 20240608085500_funni_login-via-oauth
+WRITE user_activity 20240608085503_funni_change-profile-pict
+CREATE TOPIC advertisement
+READ LAST advertisement
+WRITE advertisement 20240608090101_funni_get-ad-soap
+WRITE advertisement 20240608090123_funni_click-ad-soap
+READ LAST advertisement
+WRITE shopping 20240608090245_funni_checkout-soap
+WRITE shopping 20240608090315_funni_buy-soap
+READ LAST shopping
+READ LAST shopping
+READ LAST shopping
+READ LAST user_activity
